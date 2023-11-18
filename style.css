@@ -195,7 +195,7 @@ div.gallery {
     }
     .flex-banner-scroll img{
         width: 100%;
-        padding: 0px 5px;
+        padding: 0px 7px;
     }
 }
 @media screen and (max-width :600px) {
