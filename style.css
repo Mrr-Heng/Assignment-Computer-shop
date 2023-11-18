@@ -148,6 +148,9 @@ div.gallery {
     .flex-menu a{
         font-size: xx-large;
     }
+    .flex-menu a:hover{
+        font-size: xx-large;
+    }
     .search-btn-01{
         margin-top: 2.7%;
     }
@@ -179,6 +182,9 @@ div.gallery {
         padding: 15px;
     }
     .flex-menu a{
+        font-size: large;
+    }
+    .flex-menu a:hover{
         font-size: large;
     }
     .search-btn-01{
@@ -216,6 +222,9 @@ div.gallery {
         padding: 12px;
     }
     .flex-menu a{
+        font-size: x-small;
+    }
+    .flex-menu a:hover{
         font-size: x-small;
     }
     .flex-menu a:hover{
