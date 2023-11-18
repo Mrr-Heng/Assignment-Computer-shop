@@ -73,7 +73,7 @@ body{
     justify-content: space-evenly;
 }
 div.gallery {
-    border: 1px solid black;
+    border: 2px solid red;
     background-color: #fff;
   }
   
@@ -129,12 +129,25 @@ div.gallery {
     white-space: nowrap;
     }
     .flex-scroll img {
-        width: 35%;
+        width: 33%;
         padding: 0px 30px;
         border-right: 1px solid red;
     }
     #first-scroll{
         border-left: 1px solid red;
+    }
+    /*BannerScroll*/
+    .flex-banner-scroll{
+        width: 80%;
+        width: 100%;
+        padding: 0px 0px;
+        margin-top: 1px;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .flex-banner-scroll img{
+        padding: 5px 0px;
+        width: 100%;
     }
 @media screen and (max-width: 1024px) {
     .flex-navbar{
@@ -156,11 +169,11 @@ div.gallery {
     }
     /*banner*/
     .flex-banner{
-        width: 100%;
+        width: 98%;
     }
     /*Catagory*/
     .flex-line{
-        width: 100%;
+        width: 98%;
         margin-top: -2%;
     }
     /*Container*/
@@ -170,6 +183,19 @@ div.gallery {
     /*Scroll*/
     .flex-scroll{
         width: 95%;
+    }
+    .flex-scroll img{
+        padding: 10px 10px;
+        width: 32.8%;
+    }
+    /*Banner Scroll*/
+    .flex-banner-scroll{
+        width: 100%;
+        padding: 5px 0px;
+    }
+    .flex-banner-scroll img{
+        width: 100%;
+        padding: 0px 5px;
     }
 }
 @media screen and (max-width :600px) {
@@ -211,7 +237,6 @@ div.gallery {
     .flex-scroll{
         width: 95%;
     }
-    
 }
 @media screen and (max-width : 320px) {
     .flex-menu{
